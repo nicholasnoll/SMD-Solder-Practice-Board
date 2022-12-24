@@ -1,0 +1,347 @@
+EESchema Schematic File Version 4
+LIBS:SMD-Solder-Practice-Board-cache
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L MCU_Microchip_PIC18:PIC18F46K22-xPT U1
+U 1 1 63A6C3FD
+P 2850 2650
+F 0 "U1" H 2800 4031 50  0000 C CNN
+F 1 "PIC18F46K22-xPT" H 2800 3940 50  0000 C CNN
+F 2 "Package_QFP:TQFP-44_10x10mm_P0.8mm" H 2700 2450 50  0001 C CIN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/40001412G.pdf" H 2800 2250 50  0001 C CNN
+	1    2850 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L MCU_Microchip_PIC18:PIC18F46K22-xPT U2
+U 1 1 63A6F9EC
+P 6250 2400
+F 0 "U2" H 6200 3781 50  0000 C CNN
+F 1 "PIC18F46K22-xPT" H 6200 3690 50  0000 C CNN
+F 2 "Package_QFP:TQFP-44_10x10mm_P0.8mm" H 6100 2200 50  0001 C CIN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/40001412G.pdf" H 6200 2000 50  0001 C CNN
+	1    6250 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R1
+U 1 1 63A70E78
+P 1500 4000
+F 0 "R1" H 1559 4046 50  0000 L CNN
+F 1 "R_Small" H 1559 3955 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 1500 4000 50  0001 C CNN
+F 3 "~" H 1500 4000 50  0001 C CNN
+	1    1500 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R5
+U 1 1 63A7173F
+P 1900 4000
+F 0 "R5" H 1959 4046 50  0000 L CNN
+F 1 "R_Small" H 1959 3955 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 1900 4000 50  0001 C CNN
+F 3 "~" H 1900 4000 50  0001 C CNN
+	1    1900 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R9
+U 1 1 63A71C4E
+P 2300 4000
+F 0 "R9" H 2359 4046 50  0000 L CNN
+F 1 "R_Small" H 2359 3955 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 2300 4000 50  0001 C CNN
+F 3 "~" H 2300 4000 50  0001 C CNN
+	1    2300 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R2
+U 1 1 63A720E7
+P 1500 4250
+F 0 "R2" H 1559 4296 50  0000 L CNN
+F 1 "R_Small" H 1559 4205 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 1500 4250 50  0001 C CNN
+F 3 "~" H 1500 4250 50  0001 C CNN
+	1    1500 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R6
+U 1 1 63A725CF
+P 1900 4250
+F 0 "R6" H 1959 4296 50  0000 L CNN
+F 1 "R_Small" H 1959 4205 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 1900 4250 50  0001 C CNN
+F 3 "~" H 1900 4250 50  0001 C CNN
+	1    1900 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R10
+U 1 1 63A72A59
+P 2300 4250
+F 0 "R10" H 2359 4296 50  0000 L CNN
+F 1 "R_Small" H 2359 4205 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 2300 4250 50  0001 C CNN
+F 3 "~" H 2300 4250 50  0001 C CNN
+	1    2300 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R3
+U 1 1 63A76809
+P 1500 4500
+F 0 "R3" H 1559 4546 50  0000 L CNN
+F 1 "R_Small" H 1559 4455 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 1500 4500 50  0001 C CNN
+F 3 "~" H 1500 4500 50  0001 C CNN
+	1    1500 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R7
+U 1 1 63A76B79
+P 1900 4500
+F 0 "R7" H 1959 4546 50  0000 L CNN
+F 1 "R_Small" H 1959 4455 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 1900 4500 50  0001 C CNN
+F 3 "~" H 1900 4500 50  0001 C CNN
+	1    1900 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R11
+U 1 1 63A76ECD
+P 2300 4500
+F 0 "R11" H 2359 4546 50  0000 L CNN
+F 1 "R_Small" H 2359 4455 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 2300 4500 50  0001 C CNN
+F 3 "~" H 2300 4500 50  0001 C CNN
+	1    2300 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R12
+U 1 1 63A77270
+P 2300 4750
+F 0 "R12" H 2359 4796 50  0000 L CNN
+F 1 "R_Small" H 2359 4705 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 2300 4750 50  0001 C CNN
+F 3 "~" H 2300 4750 50  0001 C CNN
+	1    2300 4750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R8
+U 1 1 63A774D0
+P 1900 4750
+F 0 "R8" H 1959 4796 50  0000 L CNN
+F 1 "R_Small" H 1959 4705 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 1900 4750 50  0001 C CNN
+F 3 "~" H 1900 4750 50  0001 C CNN
+	1    1900 4750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R4
+U 1 1 63A7779E
+P 1500 4750
+F 0 "R4" H 1559 4796 50  0000 L CNN
+F 1 "R_Small" H 1559 4705 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 1500 4750 50  0001 C CNN
+F 3 "~" H 1500 4750 50  0001 C CNN
+	1    1500 4750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D1
+U 1 1 63A780F2
+P 3000 4100
+F 0 "D1" H 3000 3895 50  0000 C CNN
+F 1 "D_Small" H 3000 3986 50  0000 C CNN
+F 2 "Diode_SMD:D_SOD-123" V 3000 4100 50  0001 C CNN
+F 3 "~" V 3000 4100 50  0001 C CNN
+	1    3000 4100
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D_Small D5
+U 1 1 63A7855F
+P 3300 4100
+F 0 "D5" H 3300 3895 50  0000 C CNN
+F 1 "D_Small" H 3300 3986 50  0000 C CNN
+F 2 "Diode_SMD:D_SOD-123" V 3300 4100 50  0001 C CNN
+F 3 "~" V 3300 4100 50  0001 C CNN
+	1    3300 4100
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D_Small D9
+U 1 1 63A78894
+P 3600 4100
+F 0 "D9" H 3600 3895 50  0000 C CNN
+F 1 "D_Small" H 3600 3986 50  0000 C CNN
+F 2 "Diode_SMD:D_SOD-123" V 3600 4100 50  0001 C CNN
+F 3 "~" V 3600 4100 50  0001 C CNN
+	1    3600 4100
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D_Small D10
+U 1 1 63A78BEC
+P 3600 4400
+F 0 "D10" H 3600 4195 50  0000 C CNN
+F 1 "D_Small" H 3600 4286 50  0000 C CNN
+F 2 "Diode_SMD:D_SOD-123" V 3600 4400 50  0001 C CNN
+F 3 "~" V 3600 4400 50  0001 C CNN
+	1    3600 4400
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D_Small D6
+U 1 1 63A78FF3
+P 3300 4400
+F 0 "D6" H 3300 4195 50  0000 C CNN
+F 1 "D_Small" H 3300 4286 50  0000 C CNN
+F 2 "Diode_SMD:D_SOD-123" V 3300 4400 50  0001 C CNN
+F 3 "~" V 3300 4400 50  0001 C CNN
+	1    3300 4400
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D_Small D2
+U 1 1 63A7944F
+P 3000 4400
+F 0 "D2" H 3000 4195 50  0000 C CNN
+F 1 "D_Small" H 3000 4286 50  0000 C CNN
+F 2 "Diode_SMD:D_SOD-123" V 3000 4400 50  0001 C CNN
+F 3 "~" V 3000 4400 50  0001 C CNN
+	1    3000 4400
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D_Small D3
+U 1 1 63A79608
+P 3000 4700
+F 0 "D3" H 3000 4495 50  0000 C CNN
+F 1 "D_Small" H 3000 4586 50  0000 C CNN
+F 2 "Diode_SMD:D_SOD-123" V 3000 4700 50  0001 C CNN
+F 3 "~" V 3000 4700 50  0001 C CNN
+	1    3000 4700
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D_Small D7
+U 1 1 63A79807
+P 3300 4700
+F 0 "D7" H 3300 4495 50  0000 C CNN
+F 1 "D_Small" H 3300 4586 50  0000 C CNN
+F 2 "Diode_SMD:D_SOD-123" V 3300 4700 50  0001 C CNN
+F 3 "~" V 3300 4700 50  0001 C CNN
+	1    3300 4700
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D_Small D11
+U 1 1 63A79989
+P 3600 4700
+F 0 "D11" H 3600 4495 50  0000 C CNN
+F 1 "D_Small" H 3600 4586 50  0000 C CNN
+F 2 "Diode_SMD:D_SOD-123" V 3600 4700 50  0001 C CNN
+F 3 "~" V 3600 4700 50  0001 C CNN
+	1    3600 4700
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D_Small D12
+U 1 1 63A79AF2
+P 3600 5000
+F 0 "D12" H 3600 4795 50  0000 C CNN
+F 1 "D_Small" H 3600 4886 50  0000 C CNN
+F 2 "Diode_SMD:D_SOD-123" V 3600 5000 50  0001 C CNN
+F 3 "~" V 3600 5000 50  0001 C CNN
+	1    3600 5000
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D_Small D8
+U 1 1 63A79DD2
+P 3300 5000
+F 0 "D8" H 3300 4795 50  0000 C CNN
+F 1 "D_Small" H 3300 4886 50  0000 C CNN
+F 2 "Diode_SMD:D_SOD-123" V 3300 5000 50  0001 C CNN
+F 3 "~" V 3300 5000 50  0001 C CNN
+	1    3300 5000
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D_Small D4
+U 1 1 63A7A008
+P 3000 5000
+F 0 "D4" H 3000 4795 50  0000 C CNN
+F 1 "D_Small" H 3000 4886 50  0000 C CNN
+F 2 "Diode_SMD:D_SOD-123" V 3000 5000 50  0001 C CNN
+F 3 "~" V 3000 5000 50  0001 C CNN
+	1    3000 5000
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:Crystal_GND23 Y1
+U 1 1 63A7A755
+P 1550 5150
+F 0 "Y1" H 1744 5196 50  0000 L CNN
+F 1 "Crystal_GND23" H 1744 5105 50  0000 L CNN
+F 2 "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm" H 1550 5150 50  0001 C CNN
+F 3 "~" H 1550 5150 50  0001 C CNN
+	1    1550 5150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Crystal_GND23 Y2
+U 1 1 63A7AD0A
+P 1550 5650
+F 0 "Y2" H 1744 5696 50  0000 L CNN
+F 1 "Crystal_GND23" H 1744 5605 50  0000 L CNN
+F 2 "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm" H 1550 5650 50  0001 C CNN
+F 3 "~" H 1550 5650 50  0001 C CNN
+	1    1550 5650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:USB_C_Receptacle_USB2.0 J1
+U 1 1 63A7B4BC
+P 2950 5950
+F 0 "J1" H 3057 6817 50  0000 C CNN
+F 1 "USB_C_Receptacle_USB2.0" H 3057 6726 50  0000 C CNN
+F 2 "Connector_USB:USB_C_Receptacle_Palconn_UTC16-G" H 3100 5950 50  0001 C CNN
+F 3 "https://www.usb.org/sites/default/files/documents/usb_type-c.zip" H 3100 5950 50  0001 C CNN
+	1    2950 5950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:USB_C_Receptacle_USB2.0 J2
+U 1 1 63A7DA11
+P 4200 5950
+F 0 "J2" H 4307 6817 50  0000 C CNN
+F 1 "USB_C_Receptacle_USB2.0" H 4307 6726 50  0000 C CNN
+F 2 "Connector_USB:USB_C_Receptacle_Palconn_UTC16-G" H 4350 5950 50  0001 C CNN
+F 3 "https://www.usb.org/sites/default/files/documents/usb_type-c.zip" H 4350 5950 50  0001 C CNN
+	1    4200 5950
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
